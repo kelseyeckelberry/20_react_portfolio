@@ -4,18 +4,14 @@ import '../styles/style.css';
 function Portfolio(props) {
   return (
     <div id="portfolio">
-      <div className="container mt-5">
-        <div className="col-4">
+      <div class="container mt-5">
+        <div class="col-4">
           <a href={props.site}>
-            <div className="card">
-              <img
-                src={props.img}
-                alt={props.name}
-                className="card-img image"
-              />
+            <div class="card">
+              <img src={props.img} alt={props.name} class="card-img image" />
             </div>
-            <div className="middle">
-              <h4 className="text">{props.name}</h4>
+            <div>
+              <h4 class="text">{props.name}</h4>
             </div>
           </a>
         </div>

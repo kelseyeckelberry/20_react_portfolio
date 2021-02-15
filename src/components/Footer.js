@@ -3,10 +3,10 @@ import '../styles/style.css';
 
 function Footer() {
   return (
-    <div className="footer">
-      <footer className="footer mt-auto">
-        <div className="justify-content-center">
-          <p className="text-secondary">Created by Kelsey Eckelberry</p>
+    <div class="footer">
+      <footer class="footer mt-auto">
+        <div class="justify-content-center">
+          <p>Created by Kelsey Eckelberry</p>
         </div>
       </footer>
     </div>

@@ -4,3 +4,102 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+#contact {
+  position: relative;
+  height: 630px;
+  min-height: 500px;
+  width: 100%;
+  background: lightgray;
+  text-align: center;
+  overflow: hidden;
+}
+
+#about {
+  position: relative;
+  height: 600px;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.aboutme {
+  position: relative;
+  padding: 70px;
+  font-size: 18px;
+}
+
+.contact a {
+  color: #fff;
+}
+
+.footer {
+  background: darkgray;
+  text-align: center;
+  overflow: hidden;
+}
+
+a {
+  color: #fff;
+}
+
+#portfolio {
+  height: 300px;
+  width: 100%;
+  background: rgb(220, 220, 220);
+  overflow: hidden;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.text {
+  opacity: 1;
+  color: white;
+  font-size: auto;
+  padding: 16px 32px;
+}
+
+.header {
+  position: relative;
+  height: 630px;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.profilepic {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  border: solid 4px #fff;
+}
+
+.btn {
+  padding: 20px;
+  margin: 20px;
+}
+
+.btn:hover {
+  padding: 20px;
+  margin: 20px;
+}
+
+.social,
+.fa-github,
+.fa-linkedin {
+  margin: 5px;
+}
