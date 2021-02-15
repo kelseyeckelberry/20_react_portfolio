@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
-import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
-import portfolioData from '.portfolioData';
+import portfolio from './portfolio.json';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header portfolioData={portfolioData} />
-        <About portfolioData={portfolioData} />
-        <Resume portfolioData={portfolioData} />
-        <Portfolio portfolioData={portfolioData} />
-        <Contact portfolioData={portfolioData} />
-        <Footer portfolioData={portfolioData} />
+function App() {
+  return (
+    <Router>
+      <div class="body">
+        <Header />
+        <About />
+        {portfolio.map((portfolios) => (
+          <Portfolio key={portfolios.id} {...portfolios} />
+        ))}
+        <Footer />
       </div>
-    );
-  }
+    </Router>
+  );
 }
 
 export default App;

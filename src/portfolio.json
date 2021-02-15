@@ -1,0 +1,20 @@
+[
+    {
+      "name": "See Something, Say Something",
+      "site": "https://fierce-mountain-61777.herokuapp.com/",
+      "repo": "https://github.com/kelseyeckelberry/Project02_Crime_Reporting.git",
+      "img": "./public/images/home.png"
+    },
+    {
+      "name": "Weather Dashboard",
+      "site": "https://kelseyeckelberry.github.io/06_weather_dashboard/",
+      "repo": "https://github.com/kelseyeckelberry/06_weather_dashboard.git",
+      "img": "./public/images/weather-dash-tall.png"
+    },
+    {
+      "name": "Sportzilla",
+      "site": "https://millsy4.github.io/sportz_project/",
+      "repo": "https://github.com/Millsy4/sportz_project.git",
+      "img": "./public/images/sportzilla-tall.png"
+    }
+]
